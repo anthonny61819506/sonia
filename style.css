@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Playwrite IE';
 }
 
 header{
@@ -10,9 +11,12 @@ header{
    height: 120px;
 }
 nav{
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 95%;
+    margin: auto;
 }
 
 ul{
@@ -40,4 +44,55 @@ a:hover{
 .icons{
     padding: 10px 50px;
     
+}
+
+#banner {
+    width: 1100px;
+    
+}
+#banner__imagem{
+    margin-top: 10px;
+    width: 1100px;
+    
+}
+
+#reservas {
+    width: 1100px;
+    height: 144px;
+    border: 2px dashed #54F0ED;
+    color: #545EF0;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.area-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#reservas__botao{
+    padding: 20px 60px;
+    background-color: #3071FE;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+
+}
+#reservas__titulo{
+    margin-top: 15px;
+}
+.area-sobre{
+    display: flex;
+    width: 1400px;
+    margin: 20px auto;
+}
+.sobre__foto{
+    width: 500px;
+}
+.sobre{
+    color: #545EF0;
+    width: 500px;
 }
