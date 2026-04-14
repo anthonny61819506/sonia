@@ -63,7 +63,7 @@ a:focus{
     color: #83AAFF;
 }
 
-.icons{
+.icones{
     padding: 10px 50px;
     
 }
@@ -161,9 +161,10 @@ main{
     font-size: 30px;
 }
 .busca_butao{
-    font-size: 30px;
-    
-
+    font-size: 25px;
+    border: none;
+    background: none;
+    color: #3071FE;
 
 }
 .catalogo-titulo{
