@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.area-registro{
+    margin: 100px auto;
+    width: 40vw;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.area-sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+.area-contato{
+    display: flex;
+    
+}
+.area-emailsenha{
+    display: flex;
+    
+
+}
+.area-endereço{
+    display: flex;
+}
