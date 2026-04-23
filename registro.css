@@ -11,11 +11,9 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-
-
 }
 
-.area-sobre{
+.area-nome{
     display: flex;
     flex-wrap: wrap;
 }
@@ -28,11 +26,66 @@
     
 
 }
-.area-endereço{
+.area-endereco{
     display: flex;
+    flex-wrap: column;
+    width: 50vw;
+
+}
+#endereco{
+    
+    
 }
 .form-cadastro > div{
     display: flex;
     gap: 30px;
+    width: 50vw;
 
+}
+.ddd input{
+    width: 40px;
+}
+.endereco-numero{
+    width: 100%;
+    display: flex;
+    
+}
+.cidade-cep{
+    display: flex;
+    
+}
+.area-formulario{
+
+
+}
+.cidade-cep{
+    display: flex;
+    
+}
+.area-nome div{
+    display: flex;
+    flex-direction: column;
+}
+#numero{
+    width: 4vw
+}
+.formatacao > div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+#numero{
+    display: flex;
+}
+#endereco{
+    display: flex;
+
+}
+input, select{
+    width: 100%;
+    padding: 5px 0;
+}
+.area-botao{
+    margin-top: 20px;
+    
 }

@@ -14,8 +14,8 @@
        <section class="area-formulario">
           <form action="#" class="form-cadastro">
 
-          <div class="area-sobre">
-            <div class="area-nome">
+          <div class="area-nome formatacao">
+            <div class="primeiro-nome">
              <label for="username">Nome de usuário:</label>
              <input type="text" id="text" placeholder="nome" required>
           </div>
@@ -26,7 +26,7 @@
           </div>
         </div>
 
-         <div class="area-emailsenha">
+         <div class="area-emailsenha formatacao">
           <div class="area-email">
             <label for="email">Email:</label>
             <input type="text" id="email" name="email" placeholder="email" required>
@@ -39,7 +39,7 @@
             </div>
         </div>
 
-            <div class="area-contato">
+            <div class="area-contato formatacao">
                 <div class="ddd">
                     <label for="ddd">ddd</label>
                     <input type="number" max="99" id="ddd" placeholder="ddd" required>
@@ -47,32 +47,35 @@
             
 
              <div class="telefone">
-                <label for="">telefone</label>
+                <label for="">Telefone</label>
                 <input type="number" max="99" id="ddd" placeholder="digite seu telefone" required>
              </div>
             </div>
              
-            <div class="area-endereço">
-                <div>
-                    <label for="endereço">endereço</label>
-                    <input type="text" id="endereço" placeholder="digite seu endereço" required>
+            <div class="area-endereco formatacao">
+                <div class="endereco-numero">
+                <div class="endereco">
+                    <label for="endereço">Endereço</label>
+                    <input type="text" id="endereco" placeholder="digite seu endereço" required>
                 </div>
                 
                 <div class="numero">
-                    <label for="numero">numero</label>
+                    <label for="numero">Número</label>
                     <input type="number" id="numero" placeholder="digite seu numero" required>  
                 </div>
-
+                </div>
+                <div class="cidade-cep formatacao">
                 <div class="cidade">
-                    <label for="cidade">cidade</label>
+                    <label for="cidade">Cidade</label>
                     <input type="text" id="cidade" placeholder="digite sua cidade" required>
                 </div>
                 <div class="cep">
-                    <label for="cep">cep</label>
+                    <label for="cep">CEP</label>
                     <input type="text" id="cep" placeholder="digite seu cep" required>
                 </div>
+                </div>
             </div>
-                <div class="area-dados">
+                <div class="area-dados formatacao">
                     <div class="nascimento">
                         <label for="data-nascimento">data de nascimento</label>
                         <input type="date" id="data-nascimento" required>
@@ -89,6 +92,10 @@
                         
                     </div>
             </div>
+            <div class="area-botao">
+                    <button type="submit" id="botao-cadastrar"> cadastrar </button>
+                    <a href="#" class="link-login"> Já possui uma conta? Acesse agora !</a>
+                </div>
         </form>
     </section>
     </main>
