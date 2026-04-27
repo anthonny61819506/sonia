@@ -3,69 +3,33 @@
     padding: 0;
 
 }
+
 .area-registro{
-    margin: 100px auto;
+    margin: 150px auto;
     width: 50vw;
-    background-color: lightgray;
+    background-color: #545EF0;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-}
-
-.area-nome{
-    display: flex;
-    flex-wrap: wrap;
-}
-.area-contato{
-    display: flex;
-    
-}
-.area-emailsenha{
-    display: flex;
-    
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
 
 }
-.area-endereco{
-    display: flex;
-    flex-wrap: column;
-    width: 50vw;
 
-}
-#endereco{
-    
-    
-}
-.form-cadastro > div{
-    display: flex;
-    gap: 30px;
-    width: 50vw;
 
+
+
+div{
+    width: 100%;
+    display: flex;
 }
+
 .ddd input{
     width: 40px;
 }
-.endereco-numero{
-    width: 100%;
-    display: flex;
-    
-}
-.cidade-cep{
-    display: flex;
-    
-}
-.area-formulario{
-
-
-}
-.cidade-cep{
-    display: flex;
-    
-}
-.area-nome div{
-    display: flex;
-    flex-direction: column;
-}
+     
 #numero{
     width: 4vw
 }
@@ -74,18 +38,82 @@
     flex-direction: column;
     flex: 1;
 }
-#numero{
-    display: flex;
-}
-#endereco{
-    display: flex;
 
-}
+
+
+
 input, select{
     width: 100%;
+    border-radius: 7px;
     padding: 5px 0;
+    border: none;
+    font-size: 1.1em;
+
 }
 .area-botao{
-    margin-top: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+}
+.botao-cadastrar{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}.titulo-campo{
+    display: flex;
+    flex-direction: column;
+}
+.formatacao{
+    gap: 1rem;
+}
+form{
+    width: 50vw;
+
+}
+.ddd{
+    width: 100px;
+
+}
+#botao-cadastrar{
+    width: 10vw;
+    border: none;
+    border-radius: 10px;
+    font-size: ;
+
+
+}
+@media (max-width: 430px){
+. .area-registro{
+    width: 100vw;
+    background: none;
+    color: #fff;
+}
+form{
+    width: 90vw;
+
+}
+.formatacao{
+    flex-direction: column;
+}
+.endereco-numero, .area-contato{
+    flex-direction: row;
+}
+input, select{
+    border: 2px solid var(--roxo2-principal);
+}
+.cep{
+    width: 30vw;
+
+}
+.botao-cadastrar{
+    background-color: var(--roxo2-principal);
+    color: #3071FE 50%;
+}
+.link-login{
+    color: var(--roxo2-principal);
+}
 }
