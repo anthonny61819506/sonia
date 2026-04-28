@@ -82,24 +82,25 @@ form{
     width: 10vw;
     border: none;
     border-radius: 10px;
-    font-size: ;
+    
 
 
 }
 @media (max-width: 430px){
-. .area-registro{
+.area-registro{
     width: 100vw;
+    margin-top: 8vh;
     background: none;
     color: #fff;
 }
 form{
-    width: 90vw;
+    width: 85vw;
 
 }
 .formatacao{
     flex-direction: column;
 }
-.endereco-numero, .area-contato{
+.endereco-numero, .area-contato, .cidade-cep{
     flex-direction: row;
 }
 input, select{

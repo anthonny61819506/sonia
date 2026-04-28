@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap');
+
+.area-login{
+    margin: 150px auto;
+    width: 50vw;
+    background-color: #545EF0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    }
+    button{
+        width: 30%;
+        border-radius: 7px;
+        padding: 5px 0;
+        border: none;
+        font-size: 1.2em;
+    }
+    .campos{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .link-cadastro{
+        margin-top: 20px;
+        font-size: 1.1em;
+    }
+    .nome{
+        width: 100%;
+        display: flex;
+        
+    }
+    .area-email{
+        gap: 67px;
+    }
+    .area-senha{
+        gap: 65px;
+    }
+   
+    
+
+    @media  (max-width:430px){
+        .area-login{
+            width: 100vw;
+        }
+        
+        .form-login{
+            width: 85vw;
+        }
+        header{
+            width: 430px;
+            height: 10vh;
+            position: fixed;
+            top: 0;
+        }
+    }
